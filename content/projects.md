@@ -1,7 +1,7 @@
 ---
 title: "Projects"
 date: 2019-09-11T20:27:37-04:00
-draft: true
+draft: false
 ---
 
 So if you read my about me, you know I like to make things. A lot of things.
@@ -27,6 +27,11 @@ An attempt to copy the popular mobile game called Wordscapes where you're given 
 # oo [source][oo-source]
 Another attempt at copying a mobile game called oo (like infinity sign) where you rotate pipes to form closed loops. I had written something like this in Java years ago but lost the code and wanted to redo in JavaScript. The bare functionaly exists but I would like to make a solver and generate levels randomly. I believe this type of problem can be solved entirely with constraint propagation but I have yet to attempt the solver. Definitely something I will revisit!
 
+# Minesweeper [source][minesweeper-source]
+I had played minesweeper on Windows when I was younger and one day I suddenly wanted to attempt to recreate it. I went a bit overkill using React but it was more of just a fun thing. This wasn't to prove anything necessarily, just some practice with time-based Redux stores.
+
+# Island Gen [source][island-gen-source]
+One of my earlier JavaScript projects that I grabbed inspiration from another site. It generates cool looking islands with configurable parameters. There's no exporting (other than saving as a picture) but it was meant more as a quick show-and-tell site rather than something that would actually be used for generate islands.
 
 [gophoto-source]: https://github.com/marvinody/gophoto/
 [gophoto-blog]: https://blog.sadpanda.moe/posts/oct-18/gophoto/
@@ -42,3 +47,7 @@ Another attempt at copying a mobile game called oo (like infinity sign) where yo
 [crossword-source]: https://github.com/marvinody/crossword
 
 [oo-source]: https://github.com/marvinody/oo/
+
+[minesweeper-source]: https://github.com/marvinody/minesweeper-react/
+
+[island-gen-source]: https://github.com/marvinody/island-gen/
