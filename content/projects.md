@@ -24,7 +24,7 @@ A failed hackaton project where I used Elixir (with Phoenix/Ecto) and Elm to try
 ## Crossword [source][crossword-source]
 An attempt to copy the popular mobile game called Wordscapes where you're given some letters and have to fill in a crossword-style board by guessing words without clues. I went mainly to see how to simulate some kind of UI but I ran into display issues early on and spent an absurb amount of time thinking of strategies on how to fix. The basic idea is there but it needs a ton more polish before I would be happy deploying this.
 
-# oo [source][oo-source]
+# [oo][oo-deploy] [source][oo-source]
 Another attempt at copying a mobile game called oo (like infinity sign) where you rotate pipes to form closed loops. I had written something like this in Java years ago but lost the code and wanted to redo in JavaScript. The bare functionaly exists but I would like to make a solver and generate levels randomly. I believe this type of problem can be solved entirely with constraint propagation but I have yet to attempt the solver. Definitely something I will revisit!
 
 # [Minesweeper][minesweeper-deploy] [source][minesweeper-source]
@@ -47,6 +47,7 @@ One of my earlier JavaScript projects that I grabbed inspiration from another si
 [crossword-source]: https://github.com/marvinody/crossword
 
 [oo-source]: https://github.com/marvinody/oo/
+[oo-deploy]: http://oo.deploy.sadpanda.moe/
 
 [minesweeper-source]: https://github.com/marvinody/minesweeper-react/
 [minesweeper-deploy]: http://minesweeper.deploy.sadpanda.moe/
