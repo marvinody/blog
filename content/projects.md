@@ -18,6 +18,9 @@ After playing a cube called story cubes with my niece and nephew, I was inspired
 ## [Hanabite][hanabite-deploy] [source][hanabite-source]
 After making Cubestory, I took some of the code for room management from there and went to work on Hanabi online. A multiplayer turn based collaborative card game written in Svelte frontend and Polka backend again with SocketIO to hold them together. Had fun working with Svelte for the first time and would definitely use it again in the future but I would like to read more about it and common practices before investing in another project with it.
 
+## [Sorting Algos][sorts-deploy] [source][sorts-source]
+Made when starting to learn React and learned of create-react-app. Eventually moved into this idea of visualizing the sorts and added a few and here we are. Definitely one of the cooler sites to look at even though it's not technically impressive.
+
 ## Nilm [source][nilm-source]
 A failed hackaton project where I used Elixir (with Phoenix/Ecto) and Elm to try to recreate Reddit. Unfortunately, I was faced with several issues during the project which stopped my progress. Not knowing the languages contributed to that, but I was unable to get an environment setup so the two languages could communicate with each other. Definitely learned that I should fix communication issues in any project before starting a lot of work. I spent tons of time on a front-end, back-end mocking before even attempting to link them together.
 
@@ -53,3 +56,6 @@ One of my earlier JavaScript projects that I grabbed inspiration from another si
 [minesweeper-deploy]: http://minesweeper.deploy.sadpanda.moe/
 
 [island-gen-source]: https://github.com/marvinody/island-gen/
+
+[sorts-source]: https://github.com/marvinody/react-sorting-algos
+[sorts-deploy]: http://sorting.deploy.sadpanda.moe
