@@ -39,7 +39,16 @@ I thought I learned how to solve this by myself and then realized I picked it up
 `git checkout <branch>`
 
 
+### "I forked instead of cloning on a group project"
+Speaking generally, you fork if you don't have write permissions to the original project and want to split off or contribute back to it. Cloning is good if you just want the code OR you're the owner and want to work on it.
+
+`git remote -v` should show you the origin as a remote with the forked url.
+
+First thing to do is to go to the project and find the correct URI, either HTTPS or SSH and copy it.
+
+then we can run `git remote set-url origin <copied-url>` to replace it. From there your git is now 'pointing' to the original as a possible push/pull location!
+
 ---
 
 
-I hopefully will come back and add more as we encounter them but I already have a feeling I'll forget.
+I hopefully will come back and add more as I encounter them if I remember!
